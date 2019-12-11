@@ -1,5 +1,5 @@
 <h1>$5 and Dine$</h1>
-<blockquote> An app that allows patrons to find daily special at their favorite restaurants around town.  Maybe you are on a budget search for featured spots that are within your price range 7 days a week.  Whatever your needs or wants might be you can find it on <b>$5 and Dine$</b>  </blockquote>
+<blockquote> An app that allows patrons to find daily special at their favorite restaurants around town.  Maybe you are on a budget...you can now search for featured spots that are within your price range 7 days a week.  Whatever your needs or wants might be you can find it on <b>$5 and Dine$</b>  </blockquote>
 
 
 
