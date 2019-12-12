@@ -14,6 +14,9 @@ const App = () => {
             <li className="home">
               <Link to="/">$5 and Dine$</Link>
             </li>
+            <li>
+              <input className="search-bar" type="search" />
+            </li>
             <li className="nav">
               <Link to="/1">Search</Link>
             </li>

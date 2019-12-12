@@ -7,9 +7,14 @@ html {
 }
 
 body {
-  margin: 0;
   min-height: 100%;
   background-color: #2d2929;
+  width: 100%;
+  margin: 0;
+}
+
+main {
+  margin: 0;
 }
 
 a {
@@ -20,7 +25,6 @@ a {
 
 li {
   list-style: none;
-  
 }
 
 ul {
@@ -33,6 +37,59 @@ ul {
 }
 
 .nav {
-  text-align: bottom;
   padding: 1rem;
+}
+.search-bar {
+  padding: 1rem;
+  width: 15rem;
+  height: 3rem;
+  margin-left: 10rem;
+  margin-top: 1rem;
+}
+
+.feature-one-overlay {
+  position: absolute;
+  justify-content: center;
+  display: flex;
+  width: 20%;
+  text-align: center;
+}
+
+.main-home {
+  margin: 0;
+  width: 95%;
+}
+
+.image-one {
+  justify-content: center;
+}
+
+.image-box {
+  width: 85%;
+  display: flex;
+  justify-content: center;
+}
+
+.image-row-one {
+  width: 90%;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.image-box-2 {
+  width: 85%;
+  display: flex;
+  justify-content: center;
+}
+
+.image-row-two {
+  width: 90%;
+  justify-content: center;
+  padding: 1rem;
+}
+
+img {
+  width: 100%;
+  padding: 1rem;
+  padding-bottom: 2rem;
 }
