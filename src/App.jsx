@@ -8,27 +8,7 @@ import NotFound from './pages/NotFound'
 const App = () => {
   return (
     <Router>
-      <header>
-        <nav>
-          <ul>
-            <li className="home">
-              <Link to="/">$5 and Dine$</Link>
-            </li>
-            <li>
-              <input className="search-bar" type="search" />
-            </li>
-            <li className="nav">
-              <Link to="/1">Search</Link>
-            </li>
-            <li className="nav">
-              <Link to="/1">Daily Specials</Link>
-            </li>
-            <li className="nav">
-              <Link to="/2">Login</Link>
-            </li>
-          </ul>
-        </nav>
-      </header>
+
       <Switch>
         <Route exact path="/" component={HomePage}></Route>
         <Route exact path="/1" component={Page}></Route>

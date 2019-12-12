@@ -1,10 +1,10 @@
 import React from 'react'
-import HelloWorld from '../components/HelloWorld'
+import Header from '../components/Header'
 import placeholderOne from '../assets/Image_Placeholder.png'
-import graphicElementsOne from '../assets/Graphic_Elements_One.png'
-import graphicElementsTwo from '../assets/Graphic_Elements_Two.png'
-import graphicElementsThree from '../assets/Graphic_Elements_Three.png'
-import graphicElementsFour from '../assets/Graphic_Elements_Four.png'
+import graphicElementsOne from '../assets/Graphic_Elements_1_.png'
+import graphicElementsTwo from '../assets/Graphic_Elements_2_.png'
+import graphicElementsThree from '../assets/Graphic_Elements_3_.png'
+import graphicElementsFour from '../assets/Graphic_Elements_4_.png'
 import placeholderTwo from '../assets/Image_Placeholder2.png'
 import placeholderThree from '../assets/Image_Placeholder3.png'
 import placeholderFour from '../assets/Image_Placeholder4.png'
@@ -12,6 +12,7 @@ import placeholderFour from '../assets/Image_Placeholder4.png'
 const HomePage = () => {
   return (
     <>
+      <Header />
       <section className="main-home">
         <ul>
           <section className="image-box">
