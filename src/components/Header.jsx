@@ -5,27 +5,25 @@ const Header = () => {
   return (
     <>
       <main>
-        <header>
-          <nav>
-            <ul>
-              <li className="home">
-                <Link to="/">$5 and Dine$</Link>
-              </li>
-              <li>
-                <input className="search-bar" type="search" />
-              </li>
-              <li className="nav">
-                <Link to="/1">Search</Link>
-              </li>
-              <li className="nav">
-                <Link to="/1">Daily Specials</Link>
-              </li>
-              <li className="nav">
-                <Link to="/2">Login</Link>
-              </li>
-            </ul>
-          </nav>
-        </header>
+        <nav>
+          <header>
+            <Link to="/">$5 and Dine$</Link>
+          </header>
+          <ul>
+            <li>
+              <input className="search-bar" type="search" />
+            </li>
+            <li className="nav">
+              <Link to="/1">Search</Link>
+            </li>
+            <li className="nav">
+              <Link to="/1">Daily Specials</Link>
+            </li>
+            <li className="nav">
+              <Link to="/2">Login</Link>
+            </li>
+          </ul>
+        </nav>
       </main>
     </>
   )
