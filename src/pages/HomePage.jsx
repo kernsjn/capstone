@@ -23,11 +23,18 @@ const HomePage = () => {
                     className="feature-one-overlay"
                     src={graphicElementsOne}
                   />
+                  <div className="image-one-words">
+                    <span>SOUP</span>
+                  </div>
                   <img className="feature-one" src={placeholderOne} />
                 </section>
               </li>
+
               <li>
                 <img className="feature-one-overlay" src={graphicElementsTwo} />
+                <div className="image-one-words">
+                  <span>SOUP</span>
+                </div>
                 <img src={placeholderTwo} />
               </li>
             </section>
@@ -38,14 +45,20 @@ const HomePage = () => {
                 <img
                   className="feature-one-overlay"
                   src={graphicElementsThree}
-                />
+                />{' '}
+                <div className="image-one-words">
+                  <span>SOUP</span>
+                </div>
                 <img src={placeholderThree} />
               </li>
               <li>
                 <img
                   className="feature-one-overlay"
                   src={graphicElementsFour}
-                />
+                />{' '}
+                <div className="image-one-words">
+                  <span>SOUP</span>
+                </div>
                 <img src={placeholderFour} />
               </li>
             </section>
