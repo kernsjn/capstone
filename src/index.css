@@ -63,6 +63,8 @@ ul {
   margin-top: 1rem;
 }
 
+/* home page */
+
 .main-home {
   margin: 0;
   width: 95%;
@@ -119,13 +121,17 @@ img {
   padding-bottom: 2rem;
 }
 
-.feature-one-2 {
+
+
+/* second page */
+
+.feature-one-page2 {
   width: 25%;
   padding: 1rem;
   padding-bottom: 2rem;
 }
 
-.image-one-words-2 {
+.image-one-words-page2 {
   color: white;
   /* position: absolute; */
   margin-top: 0rem;
@@ -133,7 +139,7 @@ img {
   font-size: 5vw;
 }
 
-.feature-one-overlay-2 {
+.feature-one-overlay-page2 {
   position: absolute;
   justify-content: center;
   margin-left: 1rem;
@@ -142,7 +148,7 @@ img {
   text-align: center;
 }
 
-.image-one-2 {
+.image-one-page2 {
   text-align: left;
 }
 

@@ -14,18 +14,16 @@ const Page = () => {
       <Header />
       <section className="secondary-page">
         <ul>
-          <section className="image-box-2">
-            <section className="image-row-one-2">
+          <section className="image-box-page2">
+            <section className="image-row-one-page2">
               <li>
-                <section className="image-one-2">
+                <section className="image-one-page">
                   <img
-                    className="feature-one-overlay-2"
-                    src={graphicElementsOne}
-                  />
-
-                  <img className="feature-one-2" src={placeholderOne} />
-                  <div className="image-one-words-2">
-                    <span>SOUP</span>
+                    className="feature-one-overlay-page2"
+                    src={graphicElementsOne} />
+                  <img className="feature-one-page2" src={placeholderOne} />
+                  <div className="image-one-words-page2">
+                    {/* <span>SOUP</span> */}
                   </div>
                 </section>
               </li>
@@ -36,7 +34,7 @@ const Page = () => {
                   src={graphicElementsTwo}
                 />
                 <div className="image-one-words-2">
-                  <span>SOUP</span>
+                  {/* <span>SOUP</span> */}
                 </div>
                 <img className="feature-one-2" src={placeholderTwo} />
               </li>
@@ -50,7 +48,7 @@ const Page = () => {
                   src={graphicElementsThree}
                 />{' '}
                 <div className="image-one-words-2">
-                  <span>SOUP</span>
+                  {/* <span>SOUP</span> */}
                 </div>
                 <img className="feature-one-2" src={placeholderThree} />
               </li>
@@ -60,7 +58,7 @@ const Page = () => {
                   src={graphicElementsFour}
                 />{' '}
                 <div className="image-one-words-2">
-                  <span>SOUP</span>
+                  {/* <span>SOUP</span> */}
                 </div>
                 <img className="feature-one-2" src={placeholderFour} />
               </li>
